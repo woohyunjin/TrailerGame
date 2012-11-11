@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F23215016506F3400C865DF /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F23214F16506F3400C865DF /* Readme.txt */; };
 		67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AF8164F9A0F009455E9 /* UIKit.framework */; };
 		67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
 		67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFC164F9A0F009455E9 /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F23214F16506F3400C865DF /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		67678AF4164F9A0F009455E9 /* TrailerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67678AF8164F9A0F009455E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67678AFA164F9A0F009455E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 				67678B10164F9A0F009455E9 /* TrailerGameViewController.h */,
 				67678B11164F9A0F009455E9 /* TrailerGameViewController.m */,
 				67678AFF164F9A0F009455E9 /* Supporting Files */,
+				0F23214F16506F3400C865DF /* Readme.txt */,
 			);
 			path = TrailerGame;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				67678B03164F9A0F009455E9 /* InfoPlist.strings in Resources */,
 				67678B0C164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				67678B0F164F9A0F009455E9 /* MainStoryboard_iPad.storyboard in Resources */,
+				0F23215016506F3400C865DF /* Readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +448,7 @@
 				67678B2C164F9A10009455E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67678B2D164F9A10009455E9 /* Build configuration list for PBXNativeTarget "TrailerGameTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				67678B2F164F9A10009455E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
