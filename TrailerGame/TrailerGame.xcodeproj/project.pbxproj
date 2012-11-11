@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AF8164F9A0F009455E9 /* UIKit.framework */; };
+		67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
+		67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFC164F9A0F009455E9 /* CoreGraphics.framework */; };
+		67678B03164F9A0F009455E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67678B01164F9A0F009455E9 /* InfoPlist.strings */; };
+		67678B05164F9A0F009455E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67678B04164F9A0F009455E9 /* main.m */; };
+		67678B09164F9A0F009455E9 /* TrailerGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67678B08164F9A0F009455E9 /* TrailerGameAppDelegate.m */; };
+		67678B0C164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67678B0A164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard */; };
+		67678B0F164F9A0F009455E9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67678B0D164F9A0F009455E9 /* MainStoryboard_iPad.storyboard */; };
+		67678B12164F9A0F009455E9 /* TrailerGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67678B11164F9A0F009455E9 /* TrailerGameViewController.m */; };
+		67678B1A164F9A10009455E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678B19164F9A10009455E9 /* SenTestingKit.framework */; };
+		67678B1B164F9A10009455E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AF8164F9A0F009455E9 /* UIKit.framework */; };
+		67678B1C164F9A10009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
+		67678B24164F9A10009455E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67678B22164F9A10009455E9 /* InfoPlist.strings */; };
+		67678B27164F9A10009455E9 /* TrailerGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67678B26164F9A10009455E9 /* TrailerGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67678B1D164F9A10009455E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67678AEB164F9A0F009455E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67678AF3164F9A0F009455E9;
+			remoteInfo = TrailerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67678AF4164F9A0F009455E9 /* TrailerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67678AF8164F9A0F009455E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67678AFA164F9A0F009455E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67678AFC164F9A0F009455E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67678B00164F9A0F009455E9 /* TrailerGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrailerGame-Info.plist"; sourceTree = "<group>"; };
+		67678B02164F9A0F009455E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67678B04164F9A0F009455E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67678B06164F9A0F009455E9 /* TrailerGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrailerGame-Prefix.pch"; sourceTree = "<group>"; };
+		67678B07164F9A0F009455E9 /* TrailerGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerGameAppDelegate.h; sourceTree = "<group>"; };
+		67678B08164F9A0F009455E9 /* TrailerGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerGameAppDelegate.m; sourceTree = "<group>"; };
+		67678B0B164F9A0F009455E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		67678B0E164F9A0F009455E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		67678B10164F9A0F009455E9 /* TrailerGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerGameViewController.h; sourceTree = "<group>"; };
+		67678B11164F9A0F009455E9 /* TrailerGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerGameViewController.m; sourceTree = "<group>"; };
+		67678B18164F9A10009455E9 /* TrailerGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailerGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67678B19164F9A10009455E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		67678B21164F9A10009455E9 /* TrailerGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrailerGameTests-Info.plist"; sourceTree = "<group>"; };
+		67678B23164F9A10009455E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67678B25164F9A10009455E9 /* TrailerGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerGameTests.h; sourceTree = "<group>"; };
+		67678B26164F9A10009455E9 /* TrailerGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67678AF1164F9A0F009455E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */,
+				67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */,
+				67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67678B14164F9A10009455E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67678B1A164F9A10009455E9 /* SenTestingKit.framework in Frameworks */,
+				67678B1B164F9A10009455E9 /* UIKit.framework in Frameworks */,
+				67678B1C164F9A10009455E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67678AE9164F9A0F009455E9 = {
+			isa = PBXGroup;
+			children = (
+				67678AFE164F9A0F009455E9 /* TrailerGame */,
+				67678B1F164F9A10009455E9 /* TrailerGameTests */,
+				67678AF7164F9A0F009455E9 /* Frameworks */,
+				67678AF5164F9A0F009455E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67678AF5164F9A0F009455E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67678AF4164F9A0F009455E9 /* TrailerGame.app */,
+				67678B18164F9A10009455E9 /* TrailerGameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67678AF7164F9A0F009455E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67678AF8164F9A0F009455E9 /* UIKit.framework */,
+				67678AFA164F9A0F009455E9 /* Foundation.framework */,
+				67678AFC164F9A0F009455E9 /* CoreGraphics.framework */,
+				67678B19164F9A10009455E9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67678AFE164F9A0F009455E9 /* TrailerGame */ = {
+			isa = PBXGroup;
+			children = (
+				67678B07164F9A0F009455E9 /* TrailerGameAppDelegate.h */,
+				67678B08164F9A0F009455E9 /* TrailerGameAppDelegate.m */,
+				67678B0A164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard */,
+				67678B0D164F9A0F009455E9 /* MainStoryboard_iPad.storyboard */,
+				67678B10164F9A0F009455E9 /* TrailerGameViewController.h */,
+				67678B11164F9A0F009455E9 /* TrailerGameViewController.m */,
+				67678AFF164F9A0F009455E9 /* Supporting Files */,
+			);
+			path = TrailerGame;
+			sourceTree = "<group>";
+		};
+		67678AFF164F9A0F009455E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67678B00164F9A0F009455E9 /* TrailerGame-Info.plist */,
+				67678B01164F9A0F009455E9 /* InfoPlist.strings */,
+				67678B04164F9A0F009455E9 /* main.m */,
+				67678B06164F9A0F009455E9 /* TrailerGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67678B1F164F9A10009455E9 /* TrailerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				67678B25164F9A10009455E9 /* TrailerGameTests.h */,
+				67678B26164F9A10009455E9 /* TrailerGameTests.m */,
+				67678B20164F9A10009455E9 /* Supporting Files */,
+			);
+			path = TrailerGameTests;
+			sourceTree = "<group>";
+		};
+		67678B20164F9A10009455E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67678B21164F9A10009455E9 /* TrailerGameTests-Info.plist */,
+				67678B22164F9A10009455E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67678AF3164F9A0F009455E9 /* TrailerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67678B2A164F9A10009455E9 /* Build configuration list for PBXNativeTarget "TrailerGame" */;
+			buildPhases = (
+				67678AF0164F9A0F009455E9 /* Sources */,
+				67678AF1164F9A0F009455E9 /* Frameworks */,
+				67678AF2164F9A0F009455E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrailerGame;
+			productName = TrailerGame;
+			productReference = 67678AF4164F9A0F009455E9 /* TrailerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67678B17164F9A10009455E9 /* TrailerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67678B2D164F9A10009455E9 /* Build configuration list for PBXNativeTarget "TrailerGameTests" */;
+			buildPhases = (
+				67678B13164F9A10009455E9 /* Sources */,
+				67678B14164F9A10009455E9 /* Frameworks */,
+				67678B15164F9A10009455E9 /* Resources */,
+				67678B16164F9A10009455E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67678B1E164F9A10009455E9 /* PBXTargetDependency */,
+			);
+			name = TrailerGameTests;
+			productName = TrailerGameTests;
+			productReference = 67678B18164F9A10009455E9 /* TrailerGameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67678AEB164F9A0F009455E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TrailerGame;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 67678AEE164F9A0F009455E9 /* Build configuration list for PBXProject "TrailerGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67678AE9164F9A0F009455E9;
+			productRefGroup = 67678AF5164F9A0F009455E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67678AF3164F9A0F009455E9 /* TrailerGame */,
+				67678B17164F9A10009455E9 /* TrailerGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67678AF2164F9A0F009455E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67678B03164F9A0F009455E9 /* InfoPlist.strings in Resources */,
+				67678B0C164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				67678B0F164F9A0F009455E9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67678B15164F9A10009455E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67678B24164F9A10009455E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67678B16164F9A10009455E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67678AF0164F9A0F009455E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67678B05164F9A0F009455E9 /* main.m in Sources */,
+				67678B09164F9A0F009455E9 /* TrailerGameAppDelegate.m in Sources */,
+				67678B12164F9A0F009455E9 /* TrailerGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67678B13164F9A10009455E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67678B27164F9A10009455E9 /* TrailerGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67678B1E164F9A10009455E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67678AF3164F9A0F009455E9 /* TrailerGame */;
+			targetProxy = 67678B1D164F9A10009455E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67678B01164F9A0F009455E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67678B02164F9A0F009455E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67678B0A164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67678B0B164F9A0F009455E9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		67678B0D164F9A0F009455E9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67678B0E164F9A0F009455E9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		67678B22164F9A10009455E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67678B23164F9A10009455E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67678B28164F9A10009455E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67678B29164F9A10009455E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67678B2B164F9A10009455E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrailerGame/TrailerGame-Prefix.pch";
+				INFOPLIST_FILE = "TrailerGame/TrailerGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67678B2C164F9A10009455E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrailerGame/TrailerGame-Prefix.pch";
+				INFOPLIST_FILE = "TrailerGame/TrailerGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67678B2E164F9A10009455E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrailerGame.app/TrailerGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrailerGame/TrailerGame-Prefix.pch";
+				INFOPLIST_FILE = "TrailerGameTests/TrailerGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		67678B2F164F9A10009455E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrailerGame.app/TrailerGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrailerGame/TrailerGame-Prefix.pch";
+				INFOPLIST_FILE = "TrailerGameTests/TrailerGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67678AEE164F9A0F009455E9 /* Build configuration list for PBXProject "TrailerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67678B28164F9A10009455E9 /* Debug */,
+				67678B29164F9A10009455E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67678B2A164F9A10009455E9 /* Build configuration list for PBXNativeTarget "TrailerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67678B2B164F9A10009455E9 /* Debug */,
+				67678B2C164F9A10009455E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67678B2D164F9A10009455E9 /* Build configuration list for PBXNativeTarget "TrailerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67678B2E164F9A10009455E9 /* Debug */,
+				67678B2F164F9A10009455E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67678AEB164F9A0F009455E9 /* Project object */;
+}
