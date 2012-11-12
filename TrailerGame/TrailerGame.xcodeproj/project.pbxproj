@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0F23215016506F3400C865DF /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F23214F16506F3400C865DF /* Readme.txt */; };
+		0F23215416507B4B00C865DF /* MovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F23215216507B4B00C865DF /* MovieModel.xcdatamodeld */; };
+		0F23216816507DFA00C865DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F23216716507DFA00C865DF /* CoreData.framework */; };
+		0F23217116507E3300C865DF /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F23217016507E3300C865DF /* Movie.m */; };
+		0F23217716507E8600C865DF /* MovieCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F23217616507E8600C865DF /* MovieCategory.m */; };
 		67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AF8164F9A0F009455E9 /* UIKit.framework */; };
 		67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
 		67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFC164F9A0F009455E9 /* CoreGraphics.framework */; };
@@ -36,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		0F23214F16506F3400C865DF /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		0F23215316507B4B00C865DF /* MovieModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieModel.xcdatamodel; sourceTree = "<group>"; };
+		0F23216716507DFA00C865DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F23216F16507E3300C865DF /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		0F23217016507E3300C865DF /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		0F23217516507E8600C865DF /* MovieCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCategory.h; sourceTree = "<group>"; };
+		0F23217616507E8600C865DF /* MovieCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCategory.m; sourceTree = "<group>"; };
 		67678AF4164F9A0F009455E9 /* TrailerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67678AF8164F9A0F009455E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67678AFA164F9A0F009455E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F23216816507DFA00C865DF /* CoreData.framework in Frameworks */,
 				67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */,
 				67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */,
 				67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */,
@@ -85,6 +96,7 @@
 		67678AE9164F9A0F009455E9 = {
 			isa = PBXGroup;
 			children = (
+				0F23216716507DFA00C865DF /* CoreData.framework */,
 				67678AFE164F9A0F009455E9 /* TrailerGame */,
 				67678B1F164F9A10009455E9 /* TrailerGameTests */,
 				67678AF7164F9A0F009455E9 /* Frameworks */,
@@ -123,6 +135,11 @@
 				67678B11164F9A0F009455E9 /* TrailerGameViewController.m */,
 				67678AFF164F9A0F009455E9 /* Supporting Files */,
 				0F23214F16506F3400C865DF /* Readme.txt */,
+				0F23217516507E8600C865DF /* MovieCategory.h */,
+				0F23217616507E8600C865DF /* MovieCategory.m */,
+				0F23215216507B4B00C865DF /* MovieModel.xcdatamodeld */,
+				0F23216F16507E3300C865DF /* Movie.h */,
+				0F23217016507E3300C865DF /* Movie.m */,
 			);
 			path = TrailerGame;
 			sourceTree = "<group>";
@@ -269,6 +286,9 @@
 				67678B05164F9A0F009455E9 /* main.m in Sources */,
 				67678B09164F9A0F009455E9 /* TrailerGameAppDelegate.m in Sources */,
 				67678B12164F9A0F009455E9 /* TrailerGameViewController.m in Sources */,
+				0F23215416507B4B00C865DF /* MovieModel.xcdatamodeld in Sources */,
+				0F23217116507E3300C865DF /* Movie.m in Sources */,
+				0F23217716507E8600C865DF /* MovieCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +480,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F23215216507B4B00C865DF /* MovieModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F23215316507B4B00C865DF /* MovieModel.xcdatamodel */,
+			);
+			currentVersion = 0F23215316507B4B00C865DF /* MovieModel.xcdatamodel */;
+			path = MovieModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 67678AEB164F9A0F009455E9 /* Project object */;
 }

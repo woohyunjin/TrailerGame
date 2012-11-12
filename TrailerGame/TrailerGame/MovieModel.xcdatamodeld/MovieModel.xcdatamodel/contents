@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11E2520" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Movie" representedClassName="Movie" syncable="YES">
+        <attribute name="movieName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="youtubeUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MovieCategory" inverseName="movie" inverseEntity="MovieCategory" syncable="YES"/>
+    </entity>
+    <entity name="MovieCategory" representedClassName="MovieCategory" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="movie" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Movie" inverseName="categories" inverseEntity="Movie" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Movie" positionX="-27" positionY="63" width="128" height="90"/>
+        <element name="MovieCategory" positionX="-63" positionY="-18" width="128" height="75"/>
+    </elements>
+</model>
