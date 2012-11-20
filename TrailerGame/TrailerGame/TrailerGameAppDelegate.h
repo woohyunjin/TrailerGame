@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LogOnPage.h"
 
 @interface TrailerGameAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) UINavigationController *navController;
 
 @end

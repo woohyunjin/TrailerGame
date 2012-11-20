@@ -26,6 +26,15 @@
 		67678B1C164F9A10009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
 		67678B24164F9A10009455E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67678B22164F9A10009455E9 /* InfoPlist.strings */; };
 		67678B27164F9A10009455E9 /* TrailerGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67678B26164F9A10009455E9 /* TrailerGameTests.m */; };
+		67FF89401658E92F0037F2A9 /* LogOnPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF893E1658E92F0037F2A9 /* LogOnPage.m */; };
+		67FF89411658E92F0037F2A9 /* LogOnPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FF893F1658E92F0037F2A9 /* LogOnPage.xib */; };
+		67FF89491658EA440037F2A9 /* PlayPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF89471658EA440037F2A9 /* PlayPage.m */; };
+		67FF894A1658EA440037F2A9 /* PlayPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FF89481658EA440037F2A9 /* PlayPage.xib */; };
+		67FF894F1658EA7C0037F2A9 /* SelectCategoryPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FF894D1658EA7C0037F2A9 /* SelectCategoryPage.xib */; };
+		67FF89521658EEEF0037F2A9 /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67FF89511658EEEF0037F2A9 /* Logo.jpg */; };
+		67FF89561658F9F80037F2A9 /* PlayTrailerPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF89541658F9F80037F2A9 /* PlayTrailerPage.m */; };
+		67FF89571658F9F80037F2A9 /* PlayTrailerPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FF89551658F9F80037F2A9 /* PlayTrailerPage.xib */; };
+		67FF89591659BF590037F2A9 /* SelectCategoryPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF89581659BF590037F2A9 /* SelectCategoryPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +75,19 @@
 		67678B23164F9A10009455E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67678B25164F9A10009455E9 /* TrailerGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerGameTests.h; sourceTree = "<group>"; };
 		67678B26164F9A10009455E9 /* TrailerGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerGameTests.m; sourceTree = "<group>"; };
+		67FF893D1658E92F0037F2A9 /* LogOnPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogOnPage.h; sourceTree = "<group>"; };
+		67FF893E1658E92F0037F2A9 /* LogOnPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogOnPage.m; sourceTree = "<group>"; };
+		67FF893F1658E92F0037F2A9 /* LogOnPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogOnPage.xib; sourceTree = "<group>"; };
+		67FF89461658EA440037F2A9 /* PlayPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayPage.h; sourceTree = "<group>"; };
+		67FF89471658EA440037F2A9 /* PlayPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayPage.m; sourceTree = "<group>"; };
+		67FF89481658EA440037F2A9 /* PlayPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayPage.xib; sourceTree = "<group>"; };
+		67FF894B1658EA7C0037F2A9 /* SelectCategoryPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCategoryPage.h; sourceTree = "<group>"; };
+		67FF894D1658EA7C0037F2A9 /* SelectCategoryPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectCategoryPage.xib; sourceTree = "<group>"; };
+		67FF89511658EEEF0037F2A9 /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
+		67FF89531658F9F80037F2A9 /* PlayTrailerPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTrailerPage.h; sourceTree = "<group>"; };
+		67FF89541658F9F80037F2A9 /* PlayTrailerPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTrailerPage.m; sourceTree = "<group>"; };
+		67FF89551658F9F80037F2A9 /* PlayTrailerPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayTrailerPage.xib; sourceTree = "<group>"; };
+		67FF89581659BF590037F2A9 /* SelectCategoryPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCategoryPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +149,7 @@
 		67678AFE164F9A0F009455E9 /* TrailerGame */ = {
 			isa = PBXGroup;
 			children = (
+				67FF893B1658E5090037F2A9 /* Screens */,
 				67678B07164F9A0F009455E9 /* TrailerGameAppDelegate.h */,
 				67678B08164F9A0F009455E9 /* TrailerGameAppDelegate.m */,
 				67678B0A164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard */,
@@ -172,6 +195,34 @@
 				67678B22164F9A10009455E9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67FF893B1658E5090037F2A9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				67FF89581659BF590037F2A9 /* SelectCategoryPage.m */,
+				67FF89501658EECE0037F2A9 /* Resources */,
+				67FF893D1658E92F0037F2A9 /* LogOnPage.h */,
+				67FF893E1658E92F0037F2A9 /* LogOnPage.m */,
+				67FF893F1658E92F0037F2A9 /* LogOnPage.xib */,
+				67FF89461658EA440037F2A9 /* PlayPage.h */,
+				67FF89471658EA440037F2A9 /* PlayPage.m */,
+				67FF89481658EA440037F2A9 /* PlayPage.xib */,
+				67FF894B1658EA7C0037F2A9 /* SelectCategoryPage.h */,
+				67FF894D1658EA7C0037F2A9 /* SelectCategoryPage.xib */,
+				67FF89531658F9F80037F2A9 /* PlayTrailerPage.h */,
+				67FF89541658F9F80037F2A9 /* PlayTrailerPage.m */,
+				67FF89551658F9F80037F2A9 /* PlayTrailerPage.xib */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		67FF89501658EECE0037F2A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67FF89511658EEEF0037F2A9 /* Logo.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +300,11 @@
 				67678B0C164F9A0F009455E9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				67678B0F164F9A0F009455E9 /* MainStoryboard_iPad.storyboard in Resources */,
 				0F23215016506F3400C865DF /* Readme.txt in Resources */,
+				67FF89411658E92F0037F2A9 /* LogOnPage.xib in Resources */,
+				67FF894A1658EA440037F2A9 /* PlayPage.xib in Resources */,
+				67FF894F1658EA7C0037F2A9 /* SelectCategoryPage.xib in Resources */,
+				67FF89521658EEEF0037F2A9 /* Logo.jpg in Resources */,
+				67FF89571658F9F80037F2A9 /* PlayTrailerPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +345,10 @@
 				0F23215416507B4B00C865DF /* MovieModel.xcdatamodeld in Sources */,
 				0F23217116507E3300C865DF /* Movie.m in Sources */,
 				0F23217716507E8600C865DF /* MovieCategory.m in Sources */,
+				67FF89401658E92F0037F2A9 /* LogOnPage.m in Sources */,
+				67FF89491658EA440037F2A9 /* PlayPage.m in Sources */,
+				67FF89561658F9F80037F2A9 /* PlayTrailerPage.m in Sources */,
+				67FF89591659BF590037F2A9 /* SelectCategoryPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

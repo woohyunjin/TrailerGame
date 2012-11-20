@@ -11,10 +11,16 @@
 @implementation TrailerGameAppDelegate
 
 @synthesize window = _window;
+@synthesize navController = _navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIViewController *rootView = [[LogOnPage alloc] initWithNibName:@"LogOnPage" bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rootView];
+    [[self window] setRootViewController:[self navController]];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
