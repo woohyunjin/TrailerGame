@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F13D6F816604E3A006FDE39 /* 220px-Dark_Knight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F13D6F416604E3A006FDE39 /* 220px-Dark_Knight.jpg */; };
+		0F13D6F916604E3A006FDE39 /* 220px-Iron_Man_3_teaser_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F13D6F516604E3A006FDE39 /* 220px-Iron_Man_3_teaser_poster.jpg */; };
+		0F13D6FA16604E3A006FDE39 /* 220px-Skyfall_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F13D6F616604E3A006FDE39 /* 220px-Skyfall_poster.jpg */; };
+		0F13D6FB16604E3A006FDE39 /* 220px-The_Lion_King_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F13D6F716604E3A006FDE39 /* 220px-The_Lion_King_poster.jpg */; };
 		0F23215016506F3400C865DF /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F23214F16506F3400C865DF /* Readme.txt */; };
 		0F23215416507B4B00C865DF /* MovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F23215216507B4B00C865DF /* MovieModel.xcdatamodeld */; };
 		0F23216816507DFA00C865DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F23216716507DFA00C865DF /* CoreData.framework */; };
@@ -49,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F13D6F416604E3A006FDE39 /* 220px-Dark_Knight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "220px-Dark_Knight.jpg"; sourceTree = "<group>"; };
+		0F13D6F516604E3A006FDE39 /* 220px-Iron_Man_3_teaser_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "220px-Iron_Man_3_teaser_poster.jpg"; sourceTree = "<group>"; };
+		0F13D6F616604E3A006FDE39 /* 220px-Skyfall_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "220px-Skyfall_poster.jpg"; sourceTree = "<group>"; };
+		0F13D6F716604E3A006FDE39 /* 220px-The_Lion_King_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "220px-The_Lion_King_poster.jpg"; sourceTree = "<group>"; };
 		0F23214F16506F3400C865DF /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		0F23215316507B4B00C865DF /* MovieModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieModel.xcdatamodel; sourceTree = "<group>"; };
 		0F23216716507DFA00C865DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -175,6 +183,10 @@
 		67678AFF164F9A0F009455E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F13D6F416604E3A006FDE39 /* 220px-Dark_Knight.jpg */,
+				0F13D6F516604E3A006FDE39 /* 220px-Iron_Man_3_teaser_poster.jpg */,
+				0F13D6F616604E3A006FDE39 /* 220px-Skyfall_poster.jpg */,
+				0F13D6F716604E3A006FDE39 /* 220px-The_Lion_King_poster.jpg */,
 				67678B00164F9A0F009455E9 /* TrailerGame-Info.plist */,
 				67678B01164F9A0F009455E9 /* InfoPlist.strings */,
 				67678B04164F9A0F009455E9 /* main.m */,
@@ -310,6 +322,10 @@
 				67FF894F1658EA7C0037F2A9 /* SelectCategoryPage.xib in Resources */,
 				67FF89521658EEEF0037F2A9 /* Logo.jpg in Resources */,
 				67FF89571658F9F80037F2A9 /* PlayTrailerPage.xib in Resources */,
+				0F13D6F816604E3A006FDE39 /* 220px-Dark_Knight.jpg in Resources */,
+				0F13D6F916604E3A006FDE39 /* 220px-Iron_Man_3_teaser_poster.jpg in Resources */,
+				0F13D6FA16604E3A006FDE39 /* 220px-Skyfall_poster.jpg in Resources */,
+				0F13D6FB16604E3A006FDE39 /* 220px-The_Lion_King_poster.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
