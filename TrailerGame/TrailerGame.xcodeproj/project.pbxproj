@@ -12,6 +12,7 @@
 		0F23216816507DFA00C865DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F23216716507DFA00C865DF /* CoreData.framework */; };
 		0F23217116507E3300C865DF /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F23217016507E3300C865DF /* Movie.m */; };
 		0F23217716507E8600C865DF /* MovieCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F23217616507E8600C865DF /* MovieCategory.m */; };
+		6743C0501660459B00A433C8 /* Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743C04F1660459B00A433C8 /* Points.m */; };
 		67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AF8164F9A0F009455E9 /* UIKit.framework */; };
 		67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
 		67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFC164F9A0F009455E9 /* CoreGraphics.framework */; };
@@ -55,6 +56,8 @@
 		0F23217016507E3300C865DF /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		0F23217516507E8600C865DF /* MovieCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCategory.h; sourceTree = "<group>"; };
 		0F23217616507E8600C865DF /* MovieCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCategory.m; sourceTree = "<group>"; };
+		6743C04E1660459A00A433C8 /* Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Points.h; sourceTree = "<group>"; };
+		6743C04F1660459B00A433C8 /* Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Points.m; sourceTree = "<group>"; };
 		67678AF4164F9A0F009455E9 /* TrailerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67678AF8164F9A0F009455E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67678AFA164F9A0F009455E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -163,6 +166,8 @@
 				0F23215216507B4B00C865DF /* MovieModel.xcdatamodeld */,
 				0F23216F16507E3300C865DF /* Movie.h */,
 				0F23217016507E3300C865DF /* Movie.m */,
+				6743C04E1660459A00A433C8 /* Points.h */,
+				6743C04F1660459B00A433C8 /* Points.m */,
 			);
 			path = TrailerGame;
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 				67FF89491658EA440037F2A9 /* PlayPage.m in Sources */,
 				67FF89561658F9F80037F2A9 /* PlayTrailerPage.m in Sources */,
 				67FF89591659BF590037F2A9 /* SelectCategoryPage.m in Sources */,
+				6743C0501660459B00A433C8 /* Points.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
