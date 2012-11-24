@@ -18,11 +18,13 @@
 
 + (NSMutableArray *) GetGamePoints
 {
+    static NSMutableArray *points = nil;
     
 }
 
 + (void) AddGamePoints
 {
+    
     
 }
 
