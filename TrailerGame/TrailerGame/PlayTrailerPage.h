@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Movie.h"
 
 @interface PlayTrailerPage : UIViewController
+
+@property NSMutableArray *movieList;
 
 @end

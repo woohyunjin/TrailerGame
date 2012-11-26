@@ -17,7 +17,9 @@
 @property (nonatomic) int movieId;
 
 + (NSMutableArray *) GetGamePoints;
-+ (void) AddGamePoints;
++ (void) AddGamePoints:(Points *)point;
+
+- (void)initValues:(NSString *)title name:(NSString *)name time:(NSTimeInterval)time points:(int)points mId:(int)mId;
 
 @end
 

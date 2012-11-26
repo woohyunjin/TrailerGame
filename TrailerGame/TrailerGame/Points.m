@@ -8,24 +8,38 @@
 
 #import "Points.h"
 
+static NSMutableArray *points;
+
 @implementation Points
 
-@synthesize movieId;
-@synthesize pointsEarned;
-@synthesize timeSpent;
 @synthesize movieTitle;
 @synthesize posterName;
+@synthesize timeSpent;
+@synthesize pointsEarned;
+@synthesize movieId;
 
 + (NSMutableArray *) GetGamePoints
 {
-    static NSMutableArray *points = nil;
-    
+    return points;
 }
 
-+ (void) AddGamePoints
++ (void) AddGamePoints:(Points *)point;
 {
-    
-    
+    if (points == nil)
+    {
+        points = [NSMutableArray new];
+    }
+    [points addObject:point];
 }
+
+- (void)initValues:(NSString *)title name:(NSString *)name time:(NSTimeInterval)time points:(int)points mId:(int)mId
+{
+    movieTitle = title;
+    posterName = name;
+    timeSpent = time;
+    pointsEarned = points;
+    movieId = mId;
+}
+
 
 @end

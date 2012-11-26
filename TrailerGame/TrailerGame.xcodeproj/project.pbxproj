@@ -13,6 +13,8 @@
 		0F23217116507E3300C865DF /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F23217016507E3300C865DF /* Movie.m */; };
 		0F23217716507E8600C865DF /* MovieCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F23217616507E8600C865DF /* MovieCategory.m */; };
 		6743C0501660459B00A433C8 /* Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743C04F1660459B00A433C8 /* Points.m */; };
+		6743C054166362EF00A433C8 /* Green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6743C052166362EF00A433C8 /* Green.jpg */; };
+		6743C055166362EF00A433C8 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743C053166362EF00A433C8 /* Red.png */; };
 		67678AF9164F9A0F009455E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AF8164F9A0F009455E9 /* UIKit.framework */; };
 		67678AFB164F9A0F009455E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFA164F9A0F009455E9 /* Foundation.framework */; };
 		67678AFD164F9A0F009455E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67678AFC164F9A0F009455E9 /* CoreGraphics.framework */; };
@@ -58,6 +60,8 @@
 		0F23217616507E8600C865DF /* MovieCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCategory.m; sourceTree = "<group>"; };
 		6743C04E1660459A00A433C8 /* Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Points.h; sourceTree = "<group>"; };
 		6743C04F1660459B00A433C8 /* Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Points.m; sourceTree = "<group>"; };
+		6743C052166362EF00A433C8 /* Green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Green.jpg; sourceTree = "<group>"; };
+		6743C053166362EF00A433C8 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
 		67678AF4164F9A0F009455E9 /* TrailerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67678AF8164F9A0F009455E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67678AFA164F9A0F009455E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -225,6 +229,8 @@
 		67FF89501658EECE0037F2A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6743C052166362EF00A433C8 /* Green.jpg */,
+				6743C053166362EF00A433C8 /* Red.png */,
 				67FF89511658EEEF0037F2A9 /* Logo.jpg */,
 			);
 			name = Resources;
@@ -310,6 +316,8 @@
 				67FF894F1658EA7C0037F2A9 /* SelectCategoryPage.xib in Resources */,
 				67FF89521658EEEF0037F2A9 /* Logo.jpg in Resources */,
 				67FF89571658F9F80037F2A9 /* PlayTrailerPage.xib in Resources */,
+				6743C054166362EF00A433C8 /* Green.jpg in Resources */,
+				6743C055166362EF00A433C8 /* Red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
