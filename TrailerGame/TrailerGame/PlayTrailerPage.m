@@ -122,18 +122,29 @@
 {
     Movie *movie = [movieList objectAtIndex:index];
     UIButton *button = sender;
+    bool correct = FALSE;
     
     if ([button.currentTitle isEqualToString:movie.movieName])
     {
+        correct = TRUE;
         [button setBackgroundImage:green forState:UIControlStateNormal];
     }
     else 
     {
+        correct = FALSE;
         [button setBackgroundImage:red forState:UIControlStateNormal];
     }
     //this does not work. TODO: need to find a way to display the button color change for about a second
     [button setNeedsDisplay];
     [NSThread sleepForTimeInterval:interval];
+    
+    //this instantiates a points object and adds it to the Points class statis array
+    Points *point = [Points new];
+    NSTimeInterval timeSpent = 0;
+    int pointEarned = 0;
+    if (correct) pointEarned = 100;
+    [point initValues:movie.movieName name:@"" time:timeSpent points:pointEarned mId:movie.movieId];
+    [Points AddGamePoints:point];
     
     index++;        
     [self loadTrailer];
